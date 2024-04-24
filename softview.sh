@@ -64,4 +64,4 @@ if [[ -z "$command" ]]; then
 fi
 
 # Execute the command securely
-eval "$command"
+bash -c "$command"
